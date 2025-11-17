@@ -12,8 +12,8 @@ This project analyzes how consumer sentiment toward electronics products changed
 - **Chirag Sanjaykumar Ray** - 110207351
 
 **Course:** Introduction to Artificial Intelligence  
-**Institution:** [Your University Name]  
-**Semester:** [Semester/Year]
+**Institution:** University OF Windsor 
+**Semester:** [2nd Semster/MAC]
 
 ---
 
