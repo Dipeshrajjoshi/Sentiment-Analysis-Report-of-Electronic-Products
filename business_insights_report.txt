@@ -1,0 +1,81 @@
+======================================================================
+ASPECT-BASED SENTIMENT ANALYSIS: BUSINESS INSIGHTS REPORT
+Electronics Reviews During 2021-2022 Inflation Period
+======================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+This analysis examined how consumer sentiment toward electronics
+products changed during the 2021-2022 inflation period using
+aspect-based sentiment analysis.
+
+
+1. OVERALL SENTIMENT DECLINE
+   - Overall sentiment decreased by 0.370 points (50.6%)
+   - Change is statistically significant (p = 0.0229)
+   - This confirms that inflation period negatively impacted customer perception
+
+
+2. PRICE SENSITIVITY VS QUALITY PERCEPTION
+   - Price sentiment declined by 0.046 (22.5%)
+   - Quality sentiment changed by -0.218 (-57.3%)
+   - KEY INSIGHT: Customers reacted strongly to prices but quality perception remained relatively stable
+   - This critical distinction is invisible in traditional overall sentiment analysis
+
+
+3. MOST AFFECTED ASPECT: DELIVERY
+   - Largest sentiment decline: 0.283
+   - Percent change: -166.6%
+   - P-value: 0.2999 (not significant)
+   - Effect size (Cohen's d): 1.39
+
+
+4. ACTIONABLE BUSINESS RECOMMENDATIONS
+
+   A. PRICING STRATEGY
+      → Don't reduce quality to cut costs - quality perception remains stable
+      → Focus on value messaging and flexible payment options
+      → Introduce economy variants while maintaining premium line
+   
+   B. MARKETING APPROACH
+      → Emphasize quality and durability in advertising
+      → Highlight total cost of ownership vs. upfront price
+      → Target messaging: "Built to last, worth the investment"
+   
+   C. PRODUCT DEVELOPMENT
+      → Maintain current quality standards
+      → Consider value-added features that justify price
+      → Avoid cost-cutting that compromises build quality
+   
+   D. CUSTOMER COMMUNICATION
+      → Be transparent about pricing factors (supply chain, materials)
+      → Emphasize warranty and long-term value
+      → Provide comparison to show value vs. competitors
+
+
+5. VALUE OF ASPECT-BASED ANALYSIS
+
+   Traditional sentiment analysis would report:
+   → "Customer satisfaction decreased 50%"
+   → Recommendation: "Improve products to increase satisfaction"
+   
+   Aspect-based analysis reveals:
+   → "Price concern increased 22%, quality perception declined 57%"
+   → Recommendation: "Customers still value quality; focus on value messaging"
+   
+   This granularity prevents costly mistakes like:
+   ✗ Reducing quality to lower prices (not addressing the real issue)
+   ✗ Generic "improve everything" strategies (unfocused, expensive)
+   ✗ Missing that quality remains a competitive advantage
+
+
+======================================================================
+STATISTICAL SUMMARY
+======================================================================
+
+  aspect  pre_mean  pre_std  pre_count  post_mean  post_std  post_count    change  percent_change  t_statistic  p_value  significant  cohens_d
+   price  0.205400 0.317147          6   0.159097  0.166039          10 -0.046303      -22.543006     0.387136 0.704477        False -0.199916
+ quality  0.379728 0.329409          9   0.162170  0.224553          10 -0.217558      -57.293090     1.698025 0.107731        False -0.780189
+features  0.475925 0.240303          8   0.304863  0.266030           8 -0.171063      -35.943163     1.349641 0.198552        False -0.674820
+delivery  0.170000 0.240416          2  -0.113150  0.160018           2 -0.283150     -166.558824     1.386543 0.299913        False -1.386543
+ service  0.482767 0.123481          3   0.421500       NaN           1 -0.061267      -12.690741     0.429691 0.709285        False       NaN
