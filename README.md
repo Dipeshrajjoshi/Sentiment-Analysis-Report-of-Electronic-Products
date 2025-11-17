@@ -379,7 +379,7 @@ If you use this project or code in your research, please cite:
 
 **Project Status:** ✅ Complete
 
-**Last Updated:** November 2024
+**Last Updated:** November 2025
 
 ---
 
